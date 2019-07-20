@@ -27,7 +27,7 @@ private static List<Integer> generateData(int count) {
 }
 ```
 
-Next, write a method that creates a `ListItem` component given a model object:
+Next, write a method inside `ListSectionSpec.java` that creates a `ListItem` component given a model object:
 
 ```java
 @OnEvent(RenderEvent.class)
